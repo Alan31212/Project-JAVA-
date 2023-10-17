@@ -1,0 +1,23 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+            int i = 5;
+            int j = 2;
+            int k = max(i, j); // Invoke max method
+            System.out.println("The maximum between " + i +
+              " and " + j + " is " + k);
+    }
+        
+          /** Return the max between two numbers */
+    public static int max(int num1, int num2) {
+        int result;
+        
+        if (num1 > num2)
+            result = num1;
+        else
+            result = num2;
+        
+        return result; // Return result
+    }
+        
+}
+
